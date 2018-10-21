@@ -1,0 +1,28 @@
+.header {
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__brand {
+        text-decoration: none;
+        color: inherit;
+
+        &-title {
+            color: black;
+            transition: all .3s 0.15s;
+        }
+
+        &-author {
+            color: #bdbdbd;
+            transition: all .3s;
+        }
+
+        &:hover {
+            .header__brand-title,
+            .header__brand-author {
+                color: #ee6787;
+            }
+        }
+    }
+}
