@@ -1,0 +1,24 @@
+.footer {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+
+    &__copyright {
+        color: #777;
+    }
+
+    &__social-link {
+        color: #777;
+        text-decoration: none;
+        transition: all 0.3s;
+
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+
+        &:hover {
+            color: lightcoral;
+        }
+    }
+}
