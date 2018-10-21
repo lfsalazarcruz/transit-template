@@ -1,0 +1,46 @@
+.features {
+    padding: 8rem 3rem;
+    text-align: center;
+
+    &__boxes {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 40;
+
+        &::after {
+            content: '';
+            width: 60%;
+            height: 2px;
+            background-color: #eee;
+            top: 4.9rem;
+            position: absolute;
+        }
+    }
+
+    &__box {
+        z-index: 3;
+        background-color: white;
+
+        &:not(:last-child) {
+            margin-right: 8%;
+        }
+
+        &-icon {
+            font-size: 4rem;
+            color: lightcoral;
+            width: 10rem;
+            height: 10rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #eee;
+            border-radius: 50%;
+            margin-bottom: 2rem;
+        }
+
+        &-caption {
+            font-size: 2rem;
+        }
+    }
+}
