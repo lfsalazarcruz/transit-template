@@ -1,0 +1,27 @@
+.middle-hero {
+    display: flex;
+
+    &__left,
+    &__right {
+        width: 50%;
+    }
+
+    &__left {
+        padding: 7rem;
+        background-image: linear-gradient(
+            to right,
+            rgba(240, 128, 128, 1),
+            rgba(244, 165, 96, 1)
+        );
+    }
+
+    &__right {
+        background-image: linear-gradient(
+            to right,
+            rgba(93, 108, 175, 0.45),
+            rgba(75, 107, 247, 0.45),
+        ),
+        url(../img/hero/hero1-unsplash.jpg);
+        .background-center();
+    }
+}
