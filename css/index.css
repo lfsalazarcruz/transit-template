@@ -19,7 +19,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 3rem;
+  padding: 8rem 3rem;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
 }
@@ -67,4 +67,41 @@ body {
 }
 .hamburger:hover .hamburger__line {
   background-color: #ee6787;
+}
+.cta {
+  padding: 9rem 3rem;
+  background-image: linear-gradient(to right, rgba(93, 108, 175, 0.75), rgba(75, 107, 247, 0.75)), url(../img/background/cta-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+  color: white;
+  text-align: center;
+}
+.cta__box {
+  padding: 5rem;
+  background-image: linear-gradient(to right, rgba(240, 128, 128, 0.85), rgba(244, 165, 96, 0.85));
+  max-width: 50rem;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.cta__heading {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+.cta__text {
+  margin-bottom: 2rem;
+}
+.cta__button {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.8rem;
+  border: 2px solid white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.cta__button:hover {
+  background-color: rgba(255, 255, 255, 0.45);
 }
